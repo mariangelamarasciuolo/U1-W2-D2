@@ -5,9 +5,10 @@
 /* SCRIVI QUI LA TUA RISPOSTA */
 let num1 = 20;
 let num2 = 10;
-if (num1 > num2) console.log(num1)
-else{
-  console.log(num2)
+if (num1 > num2) {
+  console.log(num1);
+} else {
+  console.log(num2);
 }
 
 /* ESERCIZIO 2
@@ -15,20 +16,22 @@ else{
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num = 7
-if (num !== 5)
-console.log ("not equal")
+let num = 7;
+if (num !== 5) {
+  console.log("not equal");
+}
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num5 = 40
-if (num5 % 5 === 0)
-console.log ("divisibile per 5")
-else {
-  console.log ("non divisibile per 5")
+
+let num5 = 40;
+if (num5 % 5 === 0) {
+  console.log("divisibile per 5");
+} else {
+  console.log("non divisibile per 5");
 }
 
 /* ESERCIZIO 4
@@ -36,15 +39,18 @@ else {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let num6 = 7
-let num7 = 2
-if (num6 + num7 === 8)
-console.log (true)
-else if (num6 - num7 === 8) console.log (true)
-else if (num6 === 8) console.log(true)
-else if (num7 === 8) console.log (true)
-else {
-  console.log (false)
+let num6 = 7;
+let num7 = 2;
+if (num6 + num7 === 8) {
+  console.log(true);
+} else if (num6 - num7 === 8) {
+  console.log(true);
+} else if (num6 === 8) {
+  console.log(true);
+} else if (num7 === 8) {
+  console.log(true);
+} else {
+  console.log(false);
 }
 
 /* ESERCIZIO 5
@@ -54,26 +60,26 @@ else {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let totalShoppingCart = 56
+let totalShoppingCart = 56;
 if (totalShoppingCart > 50) {
   console.log(totalShoppingCart + 0);
-} 
-else { (totalShoppingCart < 50) 
-  console.log (totalShoppingCart +10)
+} else {
+  totalShoppingCart < 50;
+  console.log(totalShoppingCart + 10);
 }
-  
+
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-totalShoppingCart = totalShoppingCart * 0.8
+totalShoppingCart = totalShoppingCart * 0.8;
 if (totalShoppingCart > 50) {
   console.log(totalShoppingCart + 0);
-} 
-else { (totalShoppingCart < 50) 
-  console.log (totalShoppingCart +10)
+} else {
+  totalShoppingCart < 50;
+  console.log(totalShoppingCart + 10);
 }
 
 /* ESERCIZIO 7
@@ -83,8 +89,62 @@ else { (totalShoppingCart < 50)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const numero = [10, 20, 30];
-console.log(numero.sort());
+let z1 = 51;
+let z2 = 22;
+let z3 = 22;
+
+
+//gestisco z1
+ if (z1 > z3 && z1 > z2) {
+ if (z3 > z2  ){
+  console.log(z1,z3,z2)
+ }else{
+  console.log(z1,z2,z3)
+ }
+ }
+
+ //gestisco z2
+ if (z2 > z1 && z2 > z3) {
+  if (z1 > z3  ){
+   console.log(z2,z1,z3)
+  }else{
+   console.log(z2,z3,z1)
+  }
+}
+
+ //gestisco z3
+ if (z3 > z1 && z3 > z2) {
+  if (z1 > z2  ){
+   console.log(z3,z1,z2)
+  }else{
+   console.log(z3,z2,z1)
+  }
+}
+
+ //gestisco ugual.
+ if (z1 == z2 && z1 != z3 ) {
+ if(z3 > z1){
+  console.log( z1 ,z2,z3)
+ }else{
+  console.log( z3 ,z2,z1)
+ }
+}
+if (z2 == z3 && z1 != z2 ) {
+  if(z2 > z1){
+    console.log( z2 ,z3,z1)
+  }else{
+    console.log( z1 ,z2,z3)
+  }
+}
+if (z3 == z1 && z2 != z3 ) {
+ if(z3 > z2){
+  console.log( z3 ,z1,z2)
+ }else{
+  console.log( z2 ,z1,z3)
+ }
+}
+
+
 
 
 /* ESERCIZIO 8
@@ -92,7 +152,7 @@ console.log(numero.sort());
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log(typeof 50)
+console.log(typeof 50);
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
